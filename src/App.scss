@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Averta-Regular;
+  src: url("./icons/fonts/Averta-Regular.otf") format("opentype");
+}
+
+$titleFont: Averta-Regular;
+$textColor: #333333;
+$textColorLite: #b8b8b8;
+$barcolorblue: rgb(27, 202, 255);
+$barcolorPurple: rgb(92, 93, 255);
+$barcolorYellow: rgb(232, 188, 0);
+
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+h3,
+h4 {
+  font-family: $titleFont;
+  color: $textColor;
+  font-weight: 500;
+}
+
+p {
+  font-family: $titleFont;
+  color: $textColorLite;
+}
+
+.progressNumber {
+  font-family: $titleFont;
+  color: white;
+}
+
+.icoHover {
+  transition: 0.4s ease-in-out;
+}
+.icoHover:hover {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: solid 5px #333;
+  border-color: #333;
+  background-color: #333;
+  path {
+    fill: #ffffff;
+  }
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 215px;
+  width: 770px;
+  height: 290px;
+  margin-bottom: 215px;
+}
+
+.component1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 770px;
+  height: 81px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.component1:hover {
+  transition-duration: 0.7s;
+  height: 90px;
+  width: 780px;
+  box-shadow: 10px 10px 62px 0px rgba(0, 0, 0, 0.75);
+}
+
+.component2:hover {
+  transition-duration: 0.7s;
+  height: 90px;
+  width: 780px;
+  box-shadow: 10px 10px 62px 0px rgba(0, 0, 0, 0.75);
+}
+
+.component3:hover {
+  transition-duration: 0.7s;
+  height: 90px;
+  width: 780px;
+  box-shadow: 10px 10px 62px 0px rgba(0, 0, 0, 0.75);
+}
+
+.catimg {
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #f2f2f2;
+}
+
+.component2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 770px;
+  height: 81px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.component3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 770px;
+  height: 81px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.fasesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 53px;
+  width: 293px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+}
+
+.addContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border: 1px dashed lightgrey;
+  border-radius: 10px;
+  fill: #5c5dff;
+}
+
+.addPath {
+  fill: #5c5dff;
+}
+
+.addOrange {
+  fill: #e8bc00;
+}
+
+.progressNumContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(232, 188, 0);
+  width: 0;
+  height: 32px;
+  border-radius: 8px;
+  padding-left: 8px;
+}
+.progressNum {
+  margin: 0 8px;
+  background-color: rgb(232, 188, 0);
+}
+.progressNumberContainer {
+  background-color: #1bcaff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 0;
+  height: 32px;
+  border-radius: 8px;
+  transition: 3s linear width ease-in-out;
+}
+.progressNumberContainer2 {
+  display: flex;
+  align-items: center;
+  background-color: #5c5dff;
+  width: 0;
+  height: 32px;
+  border-radius: 8px;
+  padding-left: 8px;
+}
+.progressNumber {
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.progressPerCent {
+  margin-right: 8px;
+  color: #1bcaff;
+}
+
+.component1progress1 {
+  display: flex;
+  margin: 0 8px;
+  justify-content: space-between;
+  align-items: center;
+  width: 190px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(27, 202, 255, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+  border-radius: 10px;
+  border-right: solid 1px rgba(27, 202, 255, 0.3);
+  border-bottom: solid 1px rgba(27, 202, 255, 0.3);
+  border-top: solid 0.5px rgba(27, 202, 255, 0.3);
+  border-left: solid 0.5px rgba(27, 202, 255, 0.3);
+}
+
+.component2progress1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: rgb(27, 202, 255);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.component2progress2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 190px;
+  background-color: rgba(92, 93, 255, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+  border-right: solid 1px rgba(92, 93, 255, 0.3);
+  border-bottom: solid 1px rgba(92, 93, 255, 0.3);
+  border-top: solid 0.5px rgba(92, 93, 255, 0.3);
+  border-left: solid 0.5px rgba(92, 93, 255, 0.3);
+}
+
+.component3progress1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: #1bcaff;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.component3progress2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: $barcolorPurple;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.component3progress3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 190px;
+  background-color: rgba(232, 188, 0, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+  border-right: solid 1px rgba(232, 188, 0, 0.3);
+  border-bottom: solid 1px rgba(232, 188, 0, 0.3);
+  border-top: solid 0.5px rgba(232, 188, 0, 0.3);
+  border-left: solid 0.5px rgba(232, 188, 0, 0.3);
+}
+
+.toolboxContainer {
+  width: 125px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
