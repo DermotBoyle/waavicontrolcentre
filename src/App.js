@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.scss";
 import catimg from "./images/imgcat1.jpeg";
+import hamsterimg from "./images/hamster-birthday-hat.jpg";
+import foximg from "./images/fox.jpg";
 import Duplicate from "./svg/duplicate";
 import Add from "./svg/add";
 import Orange from "./svg/orange";
@@ -63,7 +65,7 @@ const App = () => {
           </div>
 
           <div className="component2">
-            <img className="catimg" src={catimg}></img>
+            <img className="catimg" src={foximg}></img>
             <div className="title2">
               <h3> Lorem ipsum</h3>
               <p>Description</p>
@@ -108,7 +110,7 @@ const App = () => {
             </div>
           </div>
           <div className="component3">
-            <img className="catimg" src={catimg}></img>
+            <img className="catimg" src={hamsterimg}></img>
             <div className="title3">
               <h3> Lorem ipsum</h3>
               <p>Description</p>
